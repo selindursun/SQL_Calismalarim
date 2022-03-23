@@ -1,0 +1,20 @@
+﻿USE [OKULKITAPLIGI]
+GO
+
+INSERT INTO [dbo].[Ogrenciler]
+           ([KayitTarihi]
+           ,[OgrAd]
+           ,[OgrSoyad]
+           ,[Cinsiyet]
+           ,[Sinif]
+           ,[DogumTarihi]
+           ,[SilindiMi])
+     VALUES
+           (<KayitTarihi, datetime,>
+           ,<OgrAd, nvarchar(50),>
+           ,<OgrSoyad, nvarchar(90),>
+           ,<Cinsiyet, tinyint,>
+           ,<Sinif, nvarchar(25),>
+           ,<DogumTarihi, datetime,>
+           ,<SilindiMi, bit,>)
+GO
